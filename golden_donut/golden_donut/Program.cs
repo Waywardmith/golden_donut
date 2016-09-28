@@ -11,6 +11,8 @@ namespace golden_donut
         static void Main(string[] args)
         {
             Console.WriteLine("Det  virker");
+
+            Console.WriteLine("Haha FUCK dig lol");
         }
     }
 }
