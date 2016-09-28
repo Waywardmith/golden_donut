@@ -10,6 +10,7 @@ namespace golden_donut
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Det  virker");
         }
     }
 }
