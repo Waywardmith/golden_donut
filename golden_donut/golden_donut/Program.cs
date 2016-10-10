@@ -10,9 +10,11 @@ namespace golden_donut
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Det  virker");
-
-            Console.WriteLine("Haha FUCK dig lol");
+            //  World w = new World();
+            // w.PrintWorld();
+            Rooms map = new Rooms();
+            Console.WriteLine(map.rooms[4].citynames);
+            Console.ReadLine();
         }
     }
 }
