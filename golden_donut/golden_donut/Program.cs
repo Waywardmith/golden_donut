@@ -13,7 +13,7 @@ namespace golden_donut
             //  World w = new World();
             // w.PrintWorld();
             Rooms map = new Rooms();
-            Console.WriteLine(map.rooms[4].citynames);
+            Console.WriteLine(map.rooms[4].);
             Console.ReadLine();
         }
     }
