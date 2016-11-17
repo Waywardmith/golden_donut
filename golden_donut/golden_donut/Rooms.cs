@@ -14,38 +14,38 @@ namespace golden_donut
         public Rooms()
         {
             rooms = new List<Room>();
-            Room r1 = new Room("Montpellier");
-            Room r2 = new Room("Bordeaux");
-            Room r3 = new Room("Lille");
-            Room r4 = new Room("Strasbourg");
-            Room r5 = new Room("Toulouse");
-            Room r6 = new Room("Nice");
-            Room r7 = new Room("Marseille");
-			Room r8 = new Room("Lyon");
-			Room r9 = new Room("Nates");
-			Room r10 = new Room("Rennes");
-			Room r11 = new Room("Le Havre");
-			Room r12 = new Room("Reims");
-			Room r13 = new Room("Saint-Etienne");
-			Room r14 = new Room("Toulon");
-			Room r15 = new Room("Grenoble");
-            Room r16 = new Room("Paris");
+            Room r1 = new Room("Montpellier"," ", false);
+            Room r2 = new Room("Bordeaux"," ", false);
+            Room r3 = new Room("Lille","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
+            Room r4 = new Room("Strasbourg","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
+            Room r5 = new Room("Toulouse","A donut! One step closer to saving the nation.", false);
+            Room r6 = new Room("Nice", " ", false);
+            Room r7 = new Room("Marseille","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
+			Room r8 = new Room("Lyon", " ", false);
+			Room r9 = new Room("Nates", " ", false);
+			Room r10 = new Room("Rennes", " ", false);
+			Room r11 = new Room("Le Havre", " ", false);
+			Room r12 = new Room("Reims","A donut! One step closer to saving the nation.", false);
+			Room r13 = new Room("Saint-Etienne", " ", false);
+			Room r14 = new Room("Toulon","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
+			Room r15 = new Room("Grenoble","A donut! That was the last. Now I only need the Golden Donut to free our country!", false);
+            Room r16 = new Room("Paris","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
 
-			Room r17 = new Room("The Louvre");
-			Room r18 = new Room("The Créme Bûléé Crater");
-			Room r19 = new Room("The Musée d'Orsay");
-			Room r20 = new Room("The Moulin Rouge");
-			Room r21 = new Room("The Champs-Élysées");
-			Room r22 = new Room("The Notre Dame de Paris");
-			Room r23 = new Room("The Basilica of Sacre Coeur");
-			Room r24 = new Room("Arc de Triomphe");
-			Room r25 = new Room("Montmartre");
-			Room r26 = new Room("Sainte-Chapelle");
-			Room r27 = new Room("Latin Quarter");
-			Room r28 = new Room("Pére Lachaise Cemetery");
-			Room r29 = new Room("Panthéon");
+			Room r17 = new Room("The Louvre","To the south is the Crème Brûlée Crater! Going further could lead to serious consequences…", false);
+			Room r18 = new Room("The Créme Bûléé Crater", " ", true);
+			Room r19 = new Room("The Musée d'Orsay", " ", false);
+			Room r20 = new Room("The Moulin Rouge", " ", false);
+			Room r21 = new Room("The Champs-Élysées","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
+			Room r22 = new Room("The Notre Dame de Paris", " ", false);
+			Room r23 = new Room("The Basilica of Sacre Coeur", " ", false);
+			Room r24 = new Room("Arc de Triomphe", " ", false);
+			Room r25 = new Room("Montmartre","An armed broccoli soldier sees me and draws a battered rifle! - my rapier won't do, better run for my life!", true);
+			Room r26 = new Room("Sainte-Chapelle", " ", false);
+			Room r27 = new Room("Latin Quarter", " ", false);
+			Room r28 = new Room("Pére Lachaise Cemetery", " ", false);
+			Room r29 = new Room("Panthéon","The golden donut! It shines like a thousand stars … Now I can finally go to the Eiffel Tower and end this regime once and for all.", false);
 
-			Room r30 = new Room("The Eiffel Tower");
+			Room r30 = new Room("The Eiffel Tower", " ", false);
 
             rooms.Add(r1);
             rooms.Add(r2);
