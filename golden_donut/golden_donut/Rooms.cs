@@ -56,6 +56,8 @@ namespace golden_donut
             rooms.Add(r7);
             rooms.Add(r8);
             Room.AddConnection(r1, r2, Direction.North, true);
+            Room.AddConnection(r2, r3)
+
         }
     }
 }
