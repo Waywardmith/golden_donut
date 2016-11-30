@@ -28,8 +28,8 @@ namespace golden_donut
 			Room r12 = new Room("Reims","A donut! One step closer to saving the nation.", false);
 			Room r13 = new Room("Saint-Etienne", " ", false);
 			Room r14 = new Room("Toulon","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
-			Room r15 = new Room("Grenoble","A donut! That was the last. Now I only need the Golden Donut to free our country!", false);
-            Room r16 = new Room("Paris","A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
+			Room r15 = new Room("Paris","A donut! That was the last. Now I only need the Golden Donut to free our country!", false);
+            Room r16 = new Room("Grenoble", "A carrot-guard seems to be lurking a few metres up the street! Better turn around …", false);
 
 			Room r17 = new Room("The Louvre","To the south is the Crème Brûlée Crater! Going further could lead to serious consequences…", false);
 			Room r18 = new Room("The Créme Bûléé Crater", " ", true);
@@ -55,9 +55,37 @@ namespace golden_donut
             rooms.Add(r6);
             rooms.Add(r7);
             rooms.Add(r8);
-            Room.AddConnection(r1, r2, Direction.North, true);
-            Room.AddConnection(r2, r3)
 
+            //W1
+
+            Room.AddConnection(r1, r2, Direction.North, true);
+            Room.AddConnection(r2, r3, Direction.East, false);
+            Room.AddConnection(r2, r4, Direction.North, false);
+            Room.AddConnection(r2, r5, Direction.West, true);
+            Room.AddConnection(r5, r6, Direction.West, true);
+            Room.AddConnection(r6, r7, Direction.South, false);
+            Room.AddConnection(r6, r8, Direction.West, true);
+            Room.AddConnection(r6, r10, Direction.North, true);
+            Room.AddConnection(r8, r9, Direction.North, true);
+            Room.AddConnection(r9, r10, Direction.East, false);
+            Room.AddConnection(r9, r11, Direction.North, true);
+            Room.AddConnection(r10, r16, Direction.East, false);
+            Room.AddConnection(r11, r12, Direction.East, true);
+            Room.AddConnection(r12, r13, Direction.East, true);
+            Room.AddConnection(r13, r14, Direction.North, false);
+            Room.AddConnection(r13, r15, Direction.East, true);
+
+            //W2
+
+            //Room.AddConnection(r17, r18)
+            Room.AddConnection(r17, r19, Direction.East, true);
+            Room.AddConnection(r19, r20, Direction.South, true);
+            Room.AddConnection(r20, r21, Direction.East, false);
+            Room.AddConnection(r20, r22, Direction.South, true);
+            Room.AddConnection(r22, r23, Direction.South, false);
+            Room.AddConnection(r22, r24, Direction.West, false);
+            Room.AddConnection(r23, r25, Direction.West, true);
+            Room.AddConnection(r24, r25, Direction.South, true);
         }
     }
 }
